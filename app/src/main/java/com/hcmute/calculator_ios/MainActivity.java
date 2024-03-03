@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     TextView calculatedResult;
     List<MaterialButton> numbersBtn = new ArrayList<>();
     MaterialButton acBtn, inverseBtn, percentageBtn, divideBtn, multiplyBtn, minusBtn, additionBtn, equalsBtn, dotBtn;
-    String param1 = "", param2 = "", resultText = "0";
+    String param1 = "0", param2 = "0", resultText = "0";
     Character currentCalculation = '\u002b';
     boolean isMathBtnClicking = false;
     boolean isCalculated = false;
